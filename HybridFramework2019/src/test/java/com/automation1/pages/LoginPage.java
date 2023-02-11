@@ -11,11 +11,9 @@ public class LoginPage {
 	{
 		this.driver=ldriver;
 	}
-	
+	//This is new commit from Abhilash P
 	@FindBy(name="login") WebElement email;
-	
 	@FindBy(name="password") WebElement pass;
-	
 	@FindBy(xpath="//input[@value='Sign In']") WebElement loginButton;
 
 	public void appLogin(String usernameApplication,String passwordApplication)
